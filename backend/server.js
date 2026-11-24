@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    "https://lightweight-vehicle-counting-system.vercel.app/",
+    "https://lightweight-vehicle-counting-system.vercel.app",
     "https://vehicle-counting-system-1.onrender.com"
   ],
   methods: ["GET", "POST", "DELETE"],
