@@ -42,11 +42,11 @@ import {
 import "./App.css";
 
 const API_BASE_URL = (
-  import.meta.env.VITE_API_URL || "http://localhost:5000"
+  import.meta.env.VITE_API_URL || "https://vehicle-counting-system.onrender.com"
 ).replace(/\/$/, "");
 
 const AI_BASE_URL = (
-  import.meta.env.VITE_AI_URL || "http://127.0.0.1:8000"
+  import.meta.env.VITE_AI_URL || "https://vehicle-counting-system-1.onrender.com"
 ).replace(/\/$/, "");
 
 const MAX_FILE_SIZE = 200 * 1024 * 1024;
