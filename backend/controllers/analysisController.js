@@ -6,7 +6,7 @@ import multer from "multer";
 import Analysis from "../models/Analysis.js";
 
 const AI_SERVICE_URL = (
-  process.env.AI_SERVICE_URL || "http://127.0.0.1:8000"
+  process.env.AI_SERVICE_URL || "https://vehicle-counting-system-1.onrender.com"
 ).replace(/\/$/, "");
 
 const MAX_FILE_SIZE = 200 * 1024 * 1024;
